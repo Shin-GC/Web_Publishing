@@ -1,0 +1,26 @@
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    height: 58px;
+    width: 165px;
+}
+
+.menu {
+    font-size: 16px;
+    font-family: Helvetica, serif;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    word-spacing: 20px;
+}
+.home_img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+a{
+    color: #58595B;
+    text-decoration: None;
+}
