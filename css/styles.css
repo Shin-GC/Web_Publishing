@@ -1,0 +1,41 @@
+@font-face {
+    src: url("../fonts/D2Coding-Ver1.3.2-20180524-all.ttc");
+    font-family: "D2";
+}
+
+a{
+    font-family: "D2", cursive;
+}
+
+
+h1 {
+    font-size : 62px;
+    text-align: center
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    margin-top : 10px;
+    text-align: center;
+}
+p{
+    text-align: center;
+    line-height: 22px;
+    font-family: "D2Coding", Times, serif;
+}
+p i {
+    font-size: 30px;
+    text-align: center;
+}
+a {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: skyblue;
+    text-align: center;
+    text-decoration: None;
+    line-height: 35px;
+}
+.link_zip {
+    text-align: center;
+}
