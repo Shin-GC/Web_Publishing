@@ -15,10 +15,11 @@
     text-align: center;
     word-spacing: 20px;
 }
-.home_img{
+.img_tag{
     display: block;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 150px;
 }
 a{
     color: #58595B;
