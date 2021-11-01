@@ -1,0 +1,24 @@
+.auto{
+    border: 1px solid blue;
+    width: 100px;
+    height: 50px;
+    overflow: auto;
+}
+.scroll{
+    border: 1px solid blue;
+    width: 100px;
+    height: 50px;
+    overflow: scroll;
+}
+.visible{
+    border: 1px solid blue;
+    width: 100px;
+    height: 50px;
+    overflow: visible;
+}
+.hidden{
+    border: 1px solid blue;
+    width: 100px;
+    height: 50px;
+    overflow: hidden;
+}
