@@ -1,0 +1,14 @@
+.p1 {
+    border: 3px dotted #4d9fff;
+}
+.p2{
+    border: 3px solid #4d9fff;
+}
+.p3{
+    border-style: inset;
+}
+.p4{
+    border-top: 3px dotted #4d9fff;
+    border-bottom: 3px dashed mediumpurple;
+    border-left: 5px solid orangered;
+}
