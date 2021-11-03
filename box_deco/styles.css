@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .div1{
     border: 1px solid lightskyblue;
     border-radius: 5px;
@@ -13,10 +16,23 @@
 .div3{
     box-shadow: -5px -5px 5px 3px navajowhite;
 }
-
+.box_sizing1{
+    margin-top: 25px;
+    border: 1px solid palevioletred;
+    height: 100px;
+    width: 300px;
+    padding: 25px;
+    /*box-sizing default : content-box*/
+}
+.box_sizing2{
+    margin-top: 25px;
+    border: 1px solid palevioletred;
+    height: 100px;
+    width: 300px;
+}
 h1{
     background-color: mediumpurple;
 }
 body{
-    background-color: #58595B;
+    background-color: antiquewhite;
 }
