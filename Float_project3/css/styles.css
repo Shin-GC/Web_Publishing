@@ -1,0 +1,95 @@
+@font-face {
+    src: url("../fonts/BMJUA_otf.otf");
+    font-family: "bmjua";
+}
+* {
+    font-family: "bmjua" ,sans-serif;
+    text-align: center;
+}
+
+body{
+    background-color: #F0E8D9;
+}
+.title{
+    font-size: 64px;
+    color: #58595B;
+    margin-top: 75px;
+    margin-bottom: 30px;
+}
+.subtitle{
+    font-size: 32px;
+    color: #58595B;
+    margin-bottom: 75px;
+}
+.menu_gird {
+    width: 660px;
+    margin: 0 auto;
+    border: solid 1px darkgray;
+    border-radius: 10px;
+}
+.img_set{
+    border-radius: 10px 10px 0 0;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+}
+.div_text{
+    color: #58595B;
+    margin-top: 20px;
+    padding: 0 20px;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+.menu_name{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin: 0 0;
+    font-size: 32px;
+    color: #58595B;
+}
+.a_tag{
+    color: #0000EE;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#chicken{
+    width: 300px;
+    float: left;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+#sushi{
+    width: 300px;
+    float: left;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+#burger{
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    float:left;
+    margin-top: 50px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+#bibimbab{
+    width: 300px;
+    float: left;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.clear_fix{
+    clear:left;
+}
