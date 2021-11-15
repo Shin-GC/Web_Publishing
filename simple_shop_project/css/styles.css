@@ -33,7 +33,11 @@ body {
 }
 /* hero header */
 #back_ground{
+  height: 450px;
   background-size: cover;
+  background-image: url("../images/hero_header.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 /* products */
 #sub_title{
