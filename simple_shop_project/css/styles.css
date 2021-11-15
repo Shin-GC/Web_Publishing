@@ -69,7 +69,7 @@ body {
 }
 .clear{
 /* 제품 3개씩 자르기용 */
-  clear:left;
+  clear:both;
   margin-bottom: 80px;
 }
 a{
