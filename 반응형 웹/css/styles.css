@@ -14,13 +14,12 @@ body {
     background: #353535;
     height: 60px;
     width: 100%;
-    text-align: left;
   }
   #brand{
-    margin-left: 30px;
+    padding-left: 30px;
     font-size: 20px;
     color: white;
-    display: inline-block;
+    line-height: 60px;
   }
   #main_image {
     background-image: url("../images/main_img.jpg");
@@ -39,23 +38,28 @@ body {
     line-height: normal;
     vertical-align: middle;
   }
-  #item_info p:first-child{
+  #label{
     font-size: 16px;
     color: #4A4A4A;
+    margin-bottom: 10px;
   }
-  #item_info p:nth-child(2){
+  #item_info h2{
     font-size: 20px;
     color: #1B1B1B;
+    margin-bottom: 30px;
+    margin-top: 0;
   }
-  #item_info p:last-child{
+  #item_info p{
     font-size: 16px;
     color:#7A7A7A;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   #div4 {
     background-image: url("../images/img1.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center;
     height: 385px;
   }
@@ -64,13 +68,13 @@ body {
     background-image: url("../images/img2.jpg");
     height: 200px;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center;
     text-align: center;
     line-height: 200px;
   }
 
-  #view{
+  #view a{
     display: inline-block;
     font-size: 16px;
     font-weight: bold;
@@ -78,13 +82,14 @@ body {
     border: white solid 4px;
     padding: 9px 40px;
     line-height: normal;
+    text-decoration: none;
   }
 
   #div6 {
     background-image: url("../images/img3.jpg");
     height: 200px;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center;
   }
 }
@@ -122,23 +127,28 @@ body {
     line-height: normal;
     vertical-align: middle;
   }
-  #item_info p:first-child{
+  #label{
     font-size: 16px;
     color: #4A4A4A;
+    margin-bottom: 10px;
   }
-  #item_info p:nth-child(2){
+  #item_info h2{
     font-size: 20px;
     color: #1B1B1B;
+    margin-bottom: 30px;
+    margin-top: 0;
   }
-  #item_info p:last-child{
+  #item_info p{
     font-size: 16px;
     color:#7A7A7A;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   #div4 {
     background-image: url("../images/img1.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center;
     height: 360px;
     width: 50%;
@@ -150,14 +160,14 @@ body {
     height: 180px;
     width: 50%;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center;
     text-align: center;
     line-height: 200px;
     float: left;
   }
 
-  #view{
+  #view a{
     display: inline-block;
     font-size: 16px;
     font-weight: bold;
@@ -165,6 +175,7 @@ body {
     border: white solid 4px;
     padding: 9px 40px;
     line-height: normal;
+    text-decoration: none;
   }
 
   #div6 {
@@ -172,7 +183,7 @@ body {
     height: 180px;
     width: 50%;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center;
     float:left;
   }
@@ -212,23 +223,28 @@ body {
     line-height: normal;
     vertical-align: middle;
   }
-  #item_info p:first-child{
+  #label{
     font-size: 16px;
     color: #4A4A4A;
+    margin-bottom: 10px;
   }
-  #item_info p:nth-child(2){
+  #item_info h2{
     font-size: 20px;
     color: #1B1B1B;
+    margin-bottom: 30px;
+    margin-top: 0;
   }
-  #item_info p:last-child{
+  #item_info p{
     font-size: 16px;
     color:#7A7A7A;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   #div4 {
     background-image: url("../images/img1.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center;
     height: 350px;
     width: 25%;
@@ -240,14 +256,14 @@ body {
     height: 175px;
     width: 25%;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center;
     text-align: center;
     line-height: 200px;
     float: left;
   }
 
-  #view{
+  #view a{
     display: inline-block;
     font-size: 16px;
     font-weight: bold;
@@ -255,6 +271,7 @@ body {
     border: white solid 4px;
     padding: 9px 40px;
     line-height: normal;
+    text-decoration: none;
   }
 
   #div6 {
@@ -262,7 +279,7 @@ body {
     height: 175px;
     width: 25%;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center;
     float:left;
   }
