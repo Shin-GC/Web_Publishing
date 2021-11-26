@@ -1,0 +1,29 @@
+* {
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+.wrap {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.card-title {
+    color: skyblue;
+}
+
+.link_tag {
+    color: dodgerblue;
+}
+
+.form_div {
+    width: 500px;
+    height: 300px;
+    border: solid black 2px;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 0 auto 30px;
+}
+
+#exampleInputPassword1{
+    height: 80px;
+}
